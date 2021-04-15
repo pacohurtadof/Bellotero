@@ -55,8 +55,8 @@ render(){
               </div>
               <div className="col-6">
                 <div className="row">
-                    <span className="col-9 slider-titles-calculator">Monthly <br></br>ingredient spending</span>
-                    <input onChange={(value)=>this.ingredientSpendingHandler(value)} type="text" className="form-control col-3 quantity-box currency" id="ingredientSpending" value={this.state.ingredientSpending} aria-label="Amount (to the nearest dollar)"></input>
+                    <span className="col-8 slider-titles-calculator">Monthly <br></br>ingredient spending</span>
+                    <input onChange={(value)=>this.ingredientSpendingHandler(value)} type="text" className="form-control col-4 quantity-box currency" id="ingredientSpending" value={this.state.ingredientSpending} aria-label="Amount (to the nearest dollar)"></input>
                 </div>
                 
                 <div className="slidecontainer row">
