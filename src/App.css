@@ -1,0 +1,237 @@
+:root{
+  --cobalt-blue: #071eb3;
+  --greyish: #a5a5a5;
+  --black: #161616;
+}
+
+.layout {
+  height: 1000px; /*quitar*/
+}
+
+.page{
+  background-color: #f9faff;
+}
+
+.Rectangle {
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+  justify-content: right;
+  align-items: center;
+  height: 64px;
+  padding-right: 100px;
+}
+
+.bellotero{
+  padding: 19px 173px 19px 174px;
+  margin-right: 28%;
+}
+
+.menu-button{
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: var(--cobalt-blue);
+}
+
+.title-row{
+  margin-top: 184px;
+}
+
+.title-testimonials{
+  color: #ffffff;
+  width: 381px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+  color: #ffffff;
+}
+
+.title-rectangle{
+  width: 389px;
+  height: 56px;
+  padding: 8px 4px;
+  background-color: var(--cobalt-blue);
+}
+
+.testimonial-rectangle{
+  width: 1002px;
+  height: 254px;
+  padding: 32px;
+  background-color: #ffffff;
+  margin-top: 88px;
+}
+
+.testimonials-name{
+  width: 158px;
+  height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--black);
+  display: block;
+}
+
+.testimonials-name-description{
+  margin: 48px 63px 0 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight:400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--greyish);
+}
+
+.testimonials-testimonial{
+  width: 565px;
+  height: 190px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--black);
+  
+}
+
+.slider-controls-rectangle{
+  position: relative;
+  bottom: 30px;
+  padding-right: 70px ;
+}
+
+.slider-controls{
+  background-color: var(--cobalt-blue);
+  width: 120px;
+  height: 56px;
+  margin: 0 1px 0 0;
+  padding: 8px 44px 16px 41px;
+  color: white;
+}
+
+.slider-controls-number{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+  font-weight:normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: 0.69px;
+}
+
+.slider-controls-arrow{
+  font-size: 30px;
+  cursor: pointer;
+}
+.slider-controls-arrow:hover{
+  color: #a5a5a5;
+}
+
+.title-calculator{
+  position: relative;
+  color: #ffffff;
+  width: 381px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  width: 269px;
+  height: 56px;
+  margin: 0 0 4px;
+  padding: 4px;
+  background-color: var(--cobalt-blue);
+}
+
+.title-rectangle-calculator{
+  width: 389px;
+  padding: 8px 4px;
+}
+
+.description-calculator{
+  padding-right: 34%;
+  margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.slider-titles-calculator{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.slider-input{
+  margin: 4%;
+  margin-left: 2%;
+  color: var(--cobalt-blue);
+  background: var(--cobalt-blue);
+  height: 2px;
+  -webkit-appearance: none;
+}
+
+
+.quantity-box{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem !important;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+  text-align: right;
+  color: var(--black) !important;
+}
+
+.quantity-box.currency{
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='100%' width='85px'><text x='10' y='35' fill='gray' font-size='20' font-family='arial'>$</text></svg>");
+  background-repeat: no-repeat;
+}
+
+.savings-value{
+  font-family: 'Roboto', sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-align: right;
+  color: var(--cobalt-blue);
+  display: inline-block;
+  
+}
+
+.savings-value::before{
+  content: '\0024';
+  font-size: 50%;
+}
+
