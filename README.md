@@ -1,3 +1,5 @@
+Bellotero project using REACT with Redux
+
 Dependencies used:
 
 react-router-dom:
